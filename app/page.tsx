@@ -761,15 +761,13 @@ export default function NumaPulse() {
                               >
                                 {property.stressScore}
                               </p>
+                              <TrendingUp className="h                              </p>
                               <TrendingUp className="h-4 w-4 text-red-500 ml-auto" />
                             </div>
                           </div>
                         ))}
                     </div>
                   </CardContent>
-                </Card>
-              </div>
-            </div>                  </CardContent>
                 </Card>
               </div>
             </div>
@@ -2360,111 +2358,112 @@ export default function NumaPulse() {
                           <tbody>
                             {[
                               {
-                                name: "Amsterdam Docklands",
-                                location: "Amsterdam, NL",
-                                current: 72.3,
-                                target: 66.0,
-                                variance: 6.3,
-                                revenue: 52000,
-                                status: "Exceeding",
-                                statusColor: "bg-green-100 text-green-800",
-                              },
-                              {
-                                name: "London Bloomsbury",
-                                location: "London, GB",
-                                current: 68.1,
-                                target: 67.0,
-                                variance: 1.1,
-                                revenue: 41000,
-                                status: "On Target",
-                                statusColor: "bg-blue-100 text-blue-800",
-                              },
-                              {
-                                name: "Munich Viktoria",
-                                location: "Munich, DE",
-                                current: 64.2,
-                                target: 66.5,
-                                variance: -2.3,
-                                revenue: 38000,
-                                status: "Below Target",
-                                statusColor: "bg-orange-100 text-orange-800",
-                              },
-                              {
-                                name: "Berlin Drift",
-                                location: "Berlin, DE",
-                                current: 58.7,
-                                target: 65.0,
-                                variance: -6.3,
-                                revenue: 45000,
-                                status: "Critical",
-                                statusColor: "bg-red-100 text-red-800",
-                              },
-                              {
-                                name: "Berlin Boxer",
-                                location: "Berlin, DE",
-                                current: 61.4,
-                                target: 64.0,
-                                variance: -2.6,
-                                revenue: 35000,
-                                status: "Below Target",
-                                statusColor: "bg-orange-100 text-orange-800",
-                              },
-                            ].map((property, index) => (
-                              <tr key={index} className="border-b border-gray-100 hover:bg-gray-50">
-                                <td className="p-4">
-                                  <div>
-                                    <p
+                                {
+                                  name: "Amsterdam Docklands",
+                                  location: "Amsterdam, NL",
+                                  current: 72.3,
+                                  target: 66.0,
+                                  variance: 6.3,
+                                  revenue: 52000,
+                                  status: "Exceeding",
+                                  statusColor: "bg-green-100 text-green-800",
+                                },
+                                {
+                                  name: "London Bloomsbury",
+                                  location: "London, GB",
+                                  current: 68.1,
+                                  target: 67.0,
+                                  variance: 1.1,
+                                  revenue: 41000,
+                                  status: "On Target",
+                                  statusColor: "bg-blue-100 text-blue-800",
+                                },
+                                {
+                                  name: "Munich Viktoria",
+                                  location: "Munich, DE",
+                                  current: 64.2,
+                                  target: 66.5,
+                                  variance: -2.3,
+                                  revenue: 38000,
+                                  status: "Below Target",
+                                  statusColor: "bg-orange-100 text-orange-800",
+                                },
+                                {
+                                  name: "Berlin Drift",
+                                  location: "Berlin, DE",
+                                  current: 58.7,
+                                  target: 65.0,
+                                  variance: -6.3,
+                                  revenue: 45000,
+                                  status: "Critical",
+                                  statusColor: "bg-red-100 text-red-800",
+                                },
+                                {
+                                  name: "Berlin Boxer",
+                                  location: "Berlin, DE",
+                                  current: 61.4,
+                                  target: 64.0,
+                                  variance: -2.6,
+                                  revenue: 35000,
+                                  status: "Below Target",
+                                  statusColor: "bg-orange-100 text-orange-800",
+                                },
+                              ].map((property, index) => (
+                                <tr key={index} className="border-b border-gray-100 hover:bg-gray-50">
+                                  <td className="p-4">
+                                    <div>
+                                      <p
+                                        className="font-medium text-[#191919]"
+                                        style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
+                                      >
+                                        {property.name}
+                                      </p>
+                                      <p
+                                        className="text-sm text-gray-600"
+                                        style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 300 }}
+                                      >
+                                        {property.location}
+                                      </p>
+                                    </div>
+                                  </td>
+                                  <td className="p-4 text-center">
+                                    <span
+                                      className="font-semibold text-[#191919]"
+                                      style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
+                                    >
+                                      {property.current}%
+                                    </span>
+                                  </td>
+                                  <td className="p-4 text-center">
+                                    <span
+                                      className="text-gray-600"
+                                      style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 300 }}
+                                    >
+                                      {property.target}%
+                                    </span>
+                                  </td>
+                                  <td className="p-4 text-center">
+                                    <span
+                                      className={`font-medium ${property.variance > 0 ? "text-green-600" : "text-red-600"}`}
+                                      style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
+                                    >
+                                      {property.variance > 0 ? "+" : ""}
+                                      {property.variance}%
+                                    </span>
+                                  </td>
+                                  <td className="p-4 text-center">
+                                    <span
                                       className="font-medium text-[#191919]"
                                       style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
                                     >
-                                      {property.name}
-                                    </p>
-                                    <p
-                                      className="text-sm text-gray-600"
-                                      style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 300 }}
-                                    >
-                                      {property.location}
-                                    </p>
-                                  </div>
-                                </td>
-                                <td className="p-4 text-center">
-                                  <span
-                                    className="font-semibold text-[#191919]"
-                                    style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
-                                  >
-                                    {property.current}%
-                                  </span>
-                                </td>
-                                <td className="p-4 text-center">
-                                  <span
-                                    className="text-gray-600"
-                                    style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 300 }}
-                                  >
-                                    {property.target}%
-                                  </span>
-                                </td>
-                                <td className="p-4 text-center">
-                                  <span
-                                    className={`font-medium ${property.variance > 0 ? "text-green-600" : "text-red-600"}`}
-                                    style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
-                                  >
-                                    {property.variance > 0 ? "+" : ""}
-                                    {property.variance}%
-                                  </span>
-                                </td>
-                                <td className="p-4 text-center">
-                                  <span
-                                    className="font-medium text-[#191919]"
-                                    style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
-                                  >
-                                    €{property.revenue.toLocaleString()}
-                                  </span>
-                                </td>
-                                <td className="p-4 text-center">
-                                  <Badge className={property.statusColor}>{property.status}</Badge>
-                                </td>
-                              </tr>
-                            ))}
+                                      €{property.revenue.toLocaleString()}
+                                    </span>
+                                  </td>
+                                  <td className="p-4 text-center">
+                                    <Badge className={property.statusColor}>{property.status}</Badge>
+                                  </td>
+                                </tr>
+                              ))}
                           </tbody>
                         </table>
                       </div>
@@ -3198,14 +3197,13 @@ export default function NumaPulse() {
                                   style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 300 }}
                                 >
                                   Check-in: {guest.checkIn}
-                                                                 </p>
-                                  <p
-                                    className="text-gray-600"
-                                    style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 300 }}
-                                  >
-                                    Preferences: {guest.preferences}
-                                  </p>
-                                </div>
+                                </p>
+                                <p
+                                  className="text-gray-600"
+                                  style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 300 }}
+                                >
+                                  Preferences: {guest.preferences}
+                                </p>
                               </div>
                             </div>
                           ))}
