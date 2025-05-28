@@ -8,26 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import {
-  Building2,
-  TrendingUp,
-  TrendingDown,
-  AlertTriangle,
-  CheckCircle,
-  Search,
-  MapPin,
-  Star,
-  Users,
-  DollarSign,
-  Calendar,
-  BarChart3,
-  Shield,
-  Crown,
-  Brain,
-  Clock,
-  Percent,
-  Upload,
-} from "lucide-react"
+import { Building2, TrendingUp, TrendingDown, AlertTriangle, CheckCircle, Search, MapPin, Star, Users, DollarSign, Calendar, BarChart3, Shield, Crown, Brain, Clock, Percent, Upload } from 'lucide-react'
 
 // Mock data for demonstration using real Numa properties
 const mockProperties = [
@@ -3400,13 +3381,13 @@ export default function NumaPulse() {
                           style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
                         >
                           <Building2 className="h-5 w-5 text-[#ffc9d2] mr-2" />
-                          Berlin Drift - Facility Improvement RACI Matrix
+                          CG Stay fb Lisbon Anjos - Unit 706 Improvement RACI Matrix
                         </CardTitle>
                         <p
                           className="text-sm text-gray-600"
                           style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 300 }}
                         >
-                          Berlin Kreuzberg • Executive Assessment Report • Uploaded: Today
+                          Lisbon, Portugal • Guest Experience Assessment Report • Uploaded: Today
                         </p>
                       </div>
                       <Button
@@ -3536,17 +3517,17 @@ export default function NumaPulse() {
                         >
                           GM
                           <br />
-                          <span className="text-xs font-normal opacity-80">Sarah Chen</span>
+                          <span className="text-xs font-normal opacity-80">Oliver Santos</span>
                         </th>
                         <th
                           className="text-center p-4 text-white font-semibold text-xs uppercase tracking-wider"
                           style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
                         >
-                          Cluster
+                          Ops
                           <br />
                           Manager
                           <br />
-                          <span className="text-xs font-normal opacity-80">Marcus Weber</span>
+                          <span className="text-xs font-normal opacity-80">Ana Costa</span>
                         </th>
                         <th
                           className="text-center p-4 text-white font-semibold text-xs uppercase tracking-wider"
@@ -3556,17 +3537,17 @@ export default function NumaPulse() {
                           <br />
                           Manager
                           <br />
-                          <span className="text-xs font-normal opacity-80">Lisa Rodriguez</span>
+                          <span className="text-xs font-normal opacity-80">Carlos Mendes</span>
                         </th>
                         <th
                           className="text-center p-4 text-white font-semibold text-xs uppercase tracking-wider"
                           style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
                         >
-                          Ops
+                          Tech
                           <br />
-                          Coordinator
+                          Support
                           <br />
-                          <span className="text-xs font-normal opacity-80">James Wilson</span>
+                          <span className="text-xs font-normal opacity-80">IT Team</span>
                         </th>
                         <th
                           className="text-center p-4 text-white font-semibold text-xs uppercase tracking-wider"
@@ -3574,7 +3555,7 @@ export default function NumaPulse() {
                         >
                           Maintenance
                           <br />
-                          <span className="text-xs font-normal opacity-80">Alex Mueller</span>
+                          <span className="text-xs font-normal opacity-80">João Silva</span>
                         </th>
                         <th
                           className="text-center p-4 text-white font-semibold text-xs uppercase tracking-wider"
@@ -3584,7 +3565,7 @@ export default function NumaPulse() {
                           <br />
                           Partner
                           <br />
-                          <span className="text-xs font-normal opacity-80">TechFix GmbH</span>
+                          <span className="text-xs font-normal opacity-80">Building Mgmt</span>
                         </th>
                         <th
                           className="text-center p-4 text-white font-semibold text-xs uppercase tracking-wider"
@@ -3602,159 +3583,7 @@ export default function NumaPulse() {
                             className="font-medium text-[#191919]"
                             style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
                           >
-                            Fix flashing stairway lighting (floors 2-3)
-                          </span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <Badge className="bg-red-500 text-white text-xs font-semibold px-2 py-1">IMMEDIATE</Badge>
-                        </td>
-                        <td className="p-4 text-center">
-                          <Badge className="bg-yellow-500 text-white text-xs font-semibold px-2 py-1">MEDIUM</Badge>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#ffc9d2] rounded-full flex items-center justify-center text-[#191919] font-semibold text-sm mx-auto">
-                            A
-                          </div>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            R
-                          </div>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#b8c5d1] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            I
-                          </div>
-                        </td>
-                        <td className="p-4 text-center"></td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            R
-                          </div>
-                        </td>
-                        <td className="p-4 text-center"></td>
-                        <td className="p-4 text-center">
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            className="text-xs px-2 py-1 h-7 border-gray-300 hover:bg-gray-50"
-                          >
-                            View Task
-                          </Button>
-                        </td>
-                      </tr>
-
-                      <tr className="border-b border-gray-100 border-l-4 border-l-red-500">
-                        <td className="p-4">
-                          <span
-                            className="font-medium text-[#191919]"
-                            style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
-                          >
-                            Fix flashing restaurant lights
-                          </span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <Badge className="bg-red-500 text-white text-xs font-semibold px-2 py-1">IMMEDIATE</Badge>
-                        </td>
-                        <td className="p-4 text-center">
-                          <Badge className="bg-yellow-500 text-white text-xs font-semibold px-2 py-1">MEDIUM</Badge>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#ffc9d2] rounded-full flex items-center justify-center text-[#191919] font-semibold text-sm mx-auto">
-                            A
-                          </div>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            R
-                          </div>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#b8c5d1] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            I
-                          </div>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#87a1be] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            C
-                          </div>
-                        </td>
-                        <td className="p-4 text-center"></td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            R
-                          </div>
-                        </td>
-                        <td className="p-4 text-center">
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            className="text-xs px-2 py-1 h-7 border-gray-300 hover:bg-gray-50"
-                          >
-                            View Task
-                          </Button>
-                        </td>
-                      </tr>
-
-                      <tr className="border-b border-gray-100 border-l-4 border-l-red-500">
-                        <td className="p-4">
-                          <span
-                            className="font-medium text-[#191919]"
-                            style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
-                          >
-                            Deep clean breakfast area carpet & bathroom
-                          </span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <Badge className="bg-red-500 text-white text-xs font-semibold px-2 py-1">IMMEDIATE</Badge>
-                        </td>
-                        <td className="p-4 text-center">
-                          <Badge className="bg-green-500 text-white text-xs font-semibold px-2 py-1">LOW</Badge>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#ffc9d2] rounded-full flex items-center justify-center text-[#191919] font-semibold text-sm mx-auto">
-                            A
-                          </div>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#87a1be] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            C
-                          </div>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#b8c5d1] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            I
-                          </div>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#87a1be] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            C
-                          </div>
-                        </td>
-                        <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            R
-                          </div>
-                        </td>
-                        <td className="p-4 text-center"></td>
-                        <td className="p-4 text-center">
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            className="text-xs px-2 py-1 h-7 border-gray-300 hover:bg-gray-50"
-                          >
-                            View Task
-                          </Button>
-                        </td>
-                      </tr>
-
-                      <tr className="border-b border-gray-100 border-l-4 border-l-red-500">
-                        <td className="p-4">
-                          <span
-                            className="font-medium text-[#191919]"
-                            style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
-                          >
-                            Install basement light switch cover
+                            Install master switch labeling for energy efficiency
                           </span>
                         </td>
                         <td className="p-4 text-center">
@@ -3774,7 +3603,7 @@ export default function NumaPulse() {
                           </div>
                         </td>
                         <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#b8c5d1 rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                          <div className="w-8 h-8 bg-[#b8c5d1] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
                             I
                           </div>
                         </td>
@@ -3785,6 +3614,295 @@ export default function NumaPulse() {
                           </div>
                         </td>
                         <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center">
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="text-xs px-2 py-1 h-7 border-gray-300 hover:bg-gray-50"
+                          >
+                            View Task
+                          </Button>
+                        </td>
+                      </tr>
+
+                      <tr className="border-b border-gray-100 border-l-4 border-l-red-500">
+                        <td className="p-4">
+                          <span
+                            className="font-medium text-[#191919]"
+                            style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
+                          >
+                            Create AC/heating thermostat usage signage
+                          </span>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-red-500 text-white text-xs font-semibold px-2 py-1">IMMEDIATE</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-green-500 text-white text-xs font-semibold px-2 py-1">LOW</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#ffc9d2] rounded-full flex items-center justify-center text-[#191919] font-semibold text-sm mx-auto">
+                            A
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            R
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#87a1be] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            C
+                          </div>
+                        </td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center">
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="text-xs px-2 py-1 h-7 border-gray-300 hover:bg-gray-50"
+                          >
+                            View Task
+                          </Button>
+                        </td>
+                      </tr>
+
+                      <tr className="border-b border-gray-100 border-l-4 border-l-red-500">
+                        <td className="p-4">
+                          <span
+                            className="font-medium text-[#191919]"
+                            style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
+                          >
+                            Install essentials closet signage and directions
+                          </span>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-red-500 text-white text-xs font-semibold px-2 py-1">IMMEDIATE</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-green-500 text-white text-xs font-semibold px-2 py-1">LOW</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#ffc9d2] rounded-full flex items-center justify-center text-[#191919] font-semibold text-sm mx-auto">
+                            A
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            R
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#b8c5d1] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            I
+                          </div>
+                        </td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            R
+                          </div>
+                        </td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center">
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="text-xs px-2 py-1 h-7 border-gray-300 hover:bg-gray-50"
+                          >
+                            View Task
+                          </Button>
+                        </td>
+                      </tr>
+
+                      <tr className="border-b border-gray-100 border-l-4 border-l-red-500">
+                        <td className="p-4">
+                          <span
+                            className="font-medium text-[#191919]"
+                            style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
+                          >
+                            Fix door auto-close mechanism for security
+                          </span>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-red-500 text-white text-xs font-semibold px-2 py-1">IMMEDIATE</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-yellow-500 text-white text-xs font-semibold px-2 py-1">MEDIUM</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#ffc9d2] rounded-full flex items-center justify-center text-[#191919] font-semibold text-sm mx-auto">
+                            A
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#87a1be] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            C
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#b8c5d1] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            I
+                          </div>
+                        </td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            R
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#87a1be] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            C
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="text-xs px-2 py-1 h-7 border-gray-300 hover:bg-gray-50"
+                          >
+                            View Task
+                          </Button>
+                        </td>
+                      </tr>
+
+                      {/* HIGH PRIORITY TASKS */}
+                      <tr className="border-b border-gray-100 border-l-4 border-l-orange-500">
+                        <td className="p-4">
+                          <span
+                            className="font-medium text-[#191919]"
+                            style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
+                          >
+                            Investigate and improve WiFi coverage in sofa area
+                          </span>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-orange-500 text-white text-xs font-semibold px-2 py-1">HIGH</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-yellow-500 text-white text-xs font-semibold px-2 py-1">MEDIUM</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#ffc9d2] rounded-full flex items-center justify-center text-[#191919] font-semibold text-sm mx-auto">
+                            A
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#87a1be] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            C
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#b8c5d1] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            I
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            R
+                          </div>
+                        </td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center">
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="text-xs px-2 py-1 h-7 border-gray-300 hover:bg-gray-50"
+                          >
+                            View Task
+                          </Button>
+                        </td>
+                      </tr>
+
+                      <tr className="border-b border-gray-100 border-l-4 border-l-orange-500">
+                        <td className="p-4">
+                          <span
+                            className="font-medium text-[#191919]"
+                            style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
+                          >
+                            Install shower handle usage instructions
+                          </span>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-orange-500 text-white text-xs font-semibold px-2 py-1">HIGH</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-green-500 text-white text-xs font-semibold px-2 py-1">LOW</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#ffc9d2] rounded-full flex items-center justify-center text-[#191919] font-semibold text-sm mx-auto">
+                            A
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            R
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#b8c5d1] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            I
+                          </div>
+                        </td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#87a1be] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            C
+                          </div>
+                        </td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center">
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="text-xs px-2 py-1 h-7 border-gray-300 hover:bg-gray-50"
+                          >
+                            View Task
+                          </Button>
+                        </td>
+                      </tr>
+
+                      <tr className="border-b border-gray-100 border-l-4 border-l-orange-500">
+                        <td className="p-4">
+                          <span
+                            className="font-medium text-[#191919]"
+                            style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
+                          >
+                            Resolve tea bag delivery issues with Hoogly
+                          </span>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-orange-500 text-white text-xs font-semibold px-2 py-1">HIGH</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <Badge className="bg-yellow-500 text-white text-xs font-semibold px-2 py-1">MEDIUM</Badge>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#ffc9d2] rounded-full flex items-center justify-center text-[#191919] font-semibold text-sm mx-auto">
+                            A
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            R
+                          </div>
+                        </td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#87a1be] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            C
+                          </div>
+                        </td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center"></td>
+                        <td className="p-4 text-center">
+                          <div className="w-8 h-8 bg-[#87a1be] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            C
+                          </div>
+                        </td>
                         <td className="p-4 text-center">
                           <Button
                             variant="outline"
@@ -3803,14 +3921,14 @@ export default function NumaPulse() {
                             className="font-medium text-[#191919]"
                             style={{ fontFamily: "Lausanne, Helvetica, sans-serif", fontWeight: 600 }}
                           >
-                            Replace broken gym equipment
+                            Investigate elevator PIN code requirement for ground floor
                           </span>
                         </td>
                         <td className="p-4 text-center">
                           <Badge className="bg-yellow-500 text-white text-xs font-semibold px-2 py-1">STANDARD</Badge>
                         </td>
                         <td className="p-4 text-center">
-                          <Badge className="bg-yellow-500 text-white text-xs font-semibold px-2 py-1">MEDIUM</Badge>
+                          <Badge className="bg-red-500 text-white text-xs font-semibold px-2 py-1">HIGH</Badge>
                         </td>
                         <td className="p-4 text-center">
                           <div className="w-8 h-8 bg-[#ffc9d2] rounded-full flex items-center justify-center text-[#191919] font-semibold text-sm mx-auto">
@@ -3818,8 +3936,8 @@ export default function NumaPulse() {
                           </div>
                         </td>
                         <td className="p-4 text-center">
-                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
-                            R
+                          <div className="w-8 h-8 bg-[#87a1be] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            C
                           </div>
                         </td>
                         <td className="p-4 text-center">
@@ -3827,7 +3945,6 @@ export default function NumaPulse() {
                             I
                           </div>
                         </td>
-                        <td className="p-4 text-center"></td>
                         <td className="p-4 text-center">
                           <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
                             R
@@ -3835,23 +3952,8 @@ export default function NumaPulse() {
                         </td>
                         <td className="p-4 text-center"></td>
                         <td className="p-4 text-center">
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            className="text-xs px-2 py-1 h-7 border-gray-300 hover:bg-gray-50"
-                          >
-                            View Task
-                          </Button>
+                          <div className="w-8 h-8 bg-[#191919] rounded-full flex items-center justify-center text-white font-semibold text-sm mx-auto">
+                            R
+                          </div>
                         </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </Card>
-            </div>
-          )}
-        </main>
-      </div>
-    </div>
-  )
-}
+                        <td className="p-
